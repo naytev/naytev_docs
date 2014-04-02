@@ -2,13 +2,12 @@
 title: API Reference
 
 language_tabs:
-  - shell
-  - ruby
-  - python
+  - html/javascript
+  - Wordpress
+  - Drupal
 
 toc_footers:
-  - <a href='#'>Sign Up for a Developer Key</a>
-  - <a href='http://github.com/tripit/slate'>Documentation Powered by Slate</a>
+  - <a href='http://www.naytev.com'>Go back to NAYTEV</a>
 
 includes:
   - errors
@@ -17,13 +16,13 @@ includes:
 
 # Introduction
 
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
+Welcome to the NAYTEV documentation. In just a few minutes (usually under 5), we'll have you running experiments on your website.
 
-We have language bindings in Shell, Ruby, and Python! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
+All you have to do to integrate NAYTEV with your existing share buttons is add one line of code to your website to include the NAYTEV javascript library.
 
-This example API documentation page was created with [Slate](http://github.com/tripit/slate). Feel free to edit it and use it as a base for your own API's documentation.
+If you don't already have share buttons, we'll add those too (they are also just a single line of code). NAYTEV is compatible out of the box with about 95% of existing share buttons across the web, so chances are we'll work with your existing ones if you have them.
 
-# Authentication
+# Installation
 
 > To authorize, use this code:
 
@@ -53,8 +52,21 @@ Kittn expects for the API key to be included in all API requests to the server i
 
 `Authorization: meowmeowmeow`
 
+# Create a Facebook App
+
+1. Login to Facebook with the account you normally use. 
+1. Visit <a href="http://developers.facebook.com" target="_blank">Facebook's Developers Page</a> (if prompted, accept the Terms of Service) 
+1. On the top left, click the “Apps” dropdown,  and select “Create New App” ![create app](facebook/createApp.png)
+1. Give your App a name (your users will see this name when they Share) and choose the category “Apps for Pages” 
+1. On your new App Dashboard, copy the App ID as you will need it in the next section. ![create app](facebook/appID.png)
+1. On the left, navigate to the “Settings” tab. Enter your website’s address in “App Domain”, your email address in “Contact email”, and then click “Add a Platform” ![create app](facebook/addPlatform.png)
+1. Select “Website” ![create app](facebook/website.png)
+1. Enter your website’s information, then click Save. Note: It’s important that the site you enter here matches the site where your users will be sharing. For security purposes, shares the don’t match will be ignored. ![create app](facebook/websiteDetails.png)
+1. Activate your app.  On the “Status & Review” tab, change toggle button indicated by the red arrow on the right from “No” to “Yes”. ![create app](facebook/activate.png)
+1. You’re good to go! Head over to NAYTEV and you can start using your shiny new app immediately. 
+
 <aside class="notice">
-You must replace `meowmeowmeow` with your personal API key.
+The domain (website) of your Facebook App must match the site you're installing NAYTEV on. This is a security measure, and experiments will be ignored when the domain doesn't match.
 </aside>
 
 # Kittens
