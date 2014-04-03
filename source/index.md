@@ -4,6 +4,7 @@ title: API Reference
 language_tabs:
   - html
   - php
+  - ruby
 
 toc_footers:
   - <a href='http://www.naytev.com'>Go back to NAYTEV</a>
@@ -80,6 +81,11 @@ drupal_add_js("your NAYTEV Javascript URL that you copied here", 'external');
 
 drupal_add_js("http://www.naytev.com/js/embed/53284cs394ds32f2f960532f5.js", 'external');
 
+```
+
+```ruby
+
+<%= javascript_include_tag "http://www.example.com/xmlhr.js" %>
 
 ```
 
