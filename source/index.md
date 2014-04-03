@@ -25,15 +25,17 @@ If you don't already have share buttons, we'll add those too (they are also just
 
 > You need a Facebook App because Facebook requires shares to come from an app's authorized domain.
 
+If you already have your Facebook App ID, you can skip to the next section. You can find your Facebook App ID in your Facebook Developers dashboard (more info below).
+
 1. Login to Facebook with the account you normally use. 
 1. Visit <a href="http://developers.facebook.com" target="_blank">Facebook's Developers Page</a> (if prompted, accept the Terms of Service) 
-1. On the top left, click the “Apps” dropdown,  and select “Create New App” ![create app](facebook/createApp.png)
+1. On the top left, click the “Apps” dropdown,  and select “Create New App” ![createapp](facebook/createApp.png)
 1. Give your App a name (your users will see this name when they Share) and choose the category “Apps for Pages” 
-1. On your new App Dashboard, copy the App ID as you will need it in the next section. ![create app](facebook/appID.png)
-1. On the left, navigate to the “Settings” tab. Enter your website’s address in “App Domain”, your email address in “Contact email”, and then click “Add a Platform” ![create app](facebook/addPlatform.png)
-1. Select “Website” ![create app](facebook/website.png)
-1. Enter your website’s information, then click Save. Note: It’s important that the site you enter here matches the site where your users will be sharing. For security purposes, shares the don’t match will be ignored. ![create app](facebook/websiteDetails.png)
-1. Activate your app.  On the “Status & Review” tab, change toggle button indicated by the red arrow on the right from “No” to “Yes”. ![create app](facebook/activate.png)
+1. On your new App Dashboard, copy the App ID as you will need it in the next section. ![createapp](facebook/appID.png)
+1. On the left, navigate to the “Settings” tab. Enter your website’s address in “App Domain”, your email address in “Contact email”, and then click “Add a Platform” ![createapp](facebook/addPlatform.png)
+1. Select “Website” ![createapp](facebook/website.png)
+1. Enter your website’s information, then click Save. Note: It’s important that the site you enter here matches the site where your users will be sharing. For security purposes, shares the don’t match will be ignored. ![createapp](facebook/websiteDetails.png)
+1. Activate your app.  On the “Status & Review” tab, change toggle button indicated by the red arrow on the right from “No” to “Yes”. ![createapp](facebook/activate.png)
 1. You’re good to go! Head over to NAYTEV and you can start using your shiny new app immediately. 
 
 <aside class="notice">
@@ -88,7 +90,7 @@ Now that you have your NAYTEV embed code, it's time to add it to your website. Y
 
 <aside class="notice">Your numbers will be different, as they are unique to your account/website.</aside>
 
-This code needs to be present in the <HEAD> section of every page you'd like to run experiments.
+**This code needs to be present in the &#060;head&#062; section of every page you'd like to run experiments.** 
 
 For Wordpress and Drupal, refer to the PHP instructions. Additional information for [Wordpress](https://codex.wordpress.org/Using_Javascript) here.
 
