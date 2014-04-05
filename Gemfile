@@ -32,3 +32,5 @@ gem 'therubyracer', :platforms => :ruby
 
 gem "rack-contrib"
 gem "puma"
+
+gem 'newrelic_rpm'

@@ -67,6 +67,7 @@ GEM
       middleman-core (~> 3.2)
       rouge (~> 1.0)
     multi_json (1.9.2)
+    newrelic_rpm (3.7.3.204)
     puma (2.8.1)
       rack (>= 1.1, < 2.0)
     rack (1.5.2)
@@ -114,6 +115,7 @@ DEPENDENCIES
   middleman-gh-pages
   middleman-livereload (~> 3.3.0)
   middleman-syntax
+  newrelic_rpm
   puma
   rack-contrib
   rake (~> 10.2.0)
